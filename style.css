@@ -5,10 +5,13 @@ body{
 h1{
     font-size: 50px;
 }
+h2{
+    font-size: 40px;
+}
 .orange-color{
     color: orange;
 }
-section{
+.flexiable-area{
     display: flex;
 }
 .half-width{
@@ -35,6 +38,31 @@ section{
     background-repeat: no-repeat;
     background-position: right;
 }
-
+.experience{
+    background-image: url(exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.experience-area{
+    box-shadow: 10px 10px 40px gray;
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 20px;
+}
+#CEO-area{
+    border-left: 10px solid;
+    border-image: linear-gradient(blue, rgb(82, 166, 245));
+    border-image-slice: 1;
+}
+#teacher-area{
+    border-left: 10px solid;
+    border-image: linear-gradient(tomato, orange);
+    border-image-slice: 1;
+}
+footer p{
+    margin-top:100px;
+    text-align: center;
+}
 
 
